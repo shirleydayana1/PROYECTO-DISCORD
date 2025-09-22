@@ -1,0 +1,25 @@
+/* FONTS, COLORES, GLOBAL STYLE*/
+@font-face {
+  font-family: "Bungee";
+  src: url('/fonts/Bungee.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('/fonts/Roboto.woff2') format('woff2');
+}
+
+:root {
+  --gray: #36393f;
+  --white: #f1f1f2;
+  --dark-violet: #6173b1;
+  --light-violet: #7289da;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+

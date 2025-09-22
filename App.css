@@ -1,0 +1,97 @@
+#root {
+    margin: 0;
+    padding: 0;
+    font-family: url(../public/fonts/Bungee.woff2) ;
+    background:  #36393f;
+}
+
+/* Fondo general */
+body {
+  background: #2c2f33; /* fondo oscuro estilo Discord */
+  display: flex;
+  background-image: url("/public/img/img.png");
+  background-size: 100% 100%, cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  width: 500px;
+  background: #36393f;
+  padding: 20px;
+  
+  color: white;
+  box-shadow: 0 20px 10px rgba(0,0,0,0.5);
+  justify-items: center;
+  
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Etiquetas */
+label {
+  font-size: 12px;
+  color: #b9bbbe;
+  margin: 0 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #202225;
+  border: 1px solid #2f3136;
+  color: white;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #7289da; /* azul estilo Discord */
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #6173b1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #7289da;
+}
+
+/* Link  */
+a {
+  color: #7289da;
+  text-decoration: none;
+  font-size: 12px;
+  
+}
+
+/* Texto de términos */
+span {
+  display: block;
+  margin-top: 15px;
+  font-size: 10px;
+  color: #72767d;
+  text-align: center;
+}
+
+
+
